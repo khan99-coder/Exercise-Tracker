@@ -52,8 +52,7 @@ for exercise in result["exercises"]:
         }
 
     }
-    #sheet_response = requests.post(url=SHEET_ENDPOINT, json=sheet_params)
-    #print(sheet_response.text)
+    
 
     bearer_header = {
         "Authorization": "Bearer dsagadshfjdzfrcvghjkvhjrghrweymy"
